@@ -1,0 +1,12 @@
+10 test cases
+
+1) Password is not being displayed in text format (needs to be masked)
+2) All field validations are functioning correctly (valid emails, valid characters in text boxes etc)
+3) Fields cannot receive malicious SQL requests (SQL injections)
+4) Passwords are being encrypted when stored in database
+5) Login functionality (And logout functionality)
+6) Cart functionality (correct items being added, items can be removed from cart)
+7) Checkout functionality (total cost is being accurately displayed - Found an issue in the website where the total cost is incorrectly displayed)
+8) Ensure payment credentials are being handled in accordance with established security standards (Website lacking expiration date and CVV field)
+9) Verify login details are being stored correctly in database
+10) Error message if submissions are attempted without required fields being filled
